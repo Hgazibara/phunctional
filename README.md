@@ -7,7 +7,7 @@ A simple set of functions making functional programming in PHP easier. Code is
 inspired by Haskell and Python, especially Python's modules [itertools](https://docs.python.org/2/library/itertools.html),
 [functools](https://docs.python.org/2/library/functools.html), and [toolz](https://pypi.python.org/pypi/toolz/).
 
-Another important intention is to create a single interface for arrays and strings. Strings can be converted into iterator using `phunctional\iter\istring` and then passed to `map()`, `slice()`, `count()` or any other method which works with iterable sequences. In the near future, similar thing should be possible with resources, too.
+Another important intention is to create a single interface for arrays and strings. Strings can be converted to iterator using `phunctional\iter\istring` and then passed to `map()`, `slice()`, `count()` or any other method which works with iterable sequences. In the near future, similar thing will be possible with resources, too.
 
 API List
 =========
