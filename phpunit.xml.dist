@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="tests/bootstrap.php" colors="true">
+    
+    <testsuites>
+        <testsuite name="Phunctional Test Suite">
+            <directory>tests/phunctional</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <blacklist>
+            <file>src/phunctional/bootstrap.php</file>
+        </blacklist>
+    </filter>
+</phpunit>
